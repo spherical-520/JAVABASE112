@@ -10,6 +10,10 @@ public class CalculadoraSimple {
         System.out.println("Ingrese el segundo número:");
         int b = scanner.nextInt();
 
+        //multiplicacion
+        int multiplicacion = a * b;
+        System.out.println("Multiplicación: " + multiplicacion);
+
         // Suma
         int suma = a + b;
         System.out.println("Suma: " + suma);
