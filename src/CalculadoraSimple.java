@@ -24,7 +24,7 @@ public class CalculadoraSimple {
 
         //division
         if (b!=0){
-            int division = a/b;
+            double division = a/b;
             System.out.println("Division: " + division);
         }
         else{
